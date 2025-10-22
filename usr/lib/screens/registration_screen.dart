@@ -67,7 +67,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
           technologies: p['technologies'],
         )).toList(),
       );
-      await _studentService.addStudent(newStudent);
+      await _studentService.addStudent(context, newStudent);
       Navigator.pop(context);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Студент зарегистрирован!')),

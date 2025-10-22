@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _loadStudents() async {
-    final loadedStudents = await _studentService.loadStudents();
+    final loadedStudents = await _studentService.loadStudents(context);
     setState(() {
       students = loadedStudents;
     });

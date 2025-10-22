@@ -21,7 +21,7 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   Future<void> _loadStudents() async {
-    final students = await _studentService.loadStudents();
+    final students = await _studentService.loadStudents(context);
     setState(() {
       allStudents = students;
       filteredStudents = students;
