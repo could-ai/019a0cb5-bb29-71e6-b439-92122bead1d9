@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Иван Иванов",
+    "bio": "Студент 3 курса, специальность 'Информационные технологии'",
+    "skills": ["HTML", "CSS", "JavaScript", "Flutter"],
+    "projects": [
+      {
+        "title": "Сайт-портфолио",
+        "description": "Персональный сайт с портфолио работ",
+        "technologies": ["HTML", "CSS", "JS"]
+      }
+    ]
+  },
+  {
+    "name": "Мария Петрова",
+    "bio": "Студентка 2 курса, специальность 'Веб-разработка'",
+    "skills": ["React", "Node.js", "MongoDB"],
+    "projects": [
+      {
+        "title": "Онлайн-магазин",
+        "description": "E-commerce платформа для локального бизнеса",
+        "technologies": ["React", "Express", "MongoDB"]
+      }
+    ]
+  }
+]
